@@ -25,6 +25,7 @@
 		height: Laya.stage.height
 	});
 
+
 	Laya.stage.addChild(backgroundImage);
 
 	// 显示帧率性能数据
