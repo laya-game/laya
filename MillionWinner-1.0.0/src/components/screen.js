@@ -1,7 +1,7 @@
-(function() {
-	var WebGL  = Laya.WebGL;
+(function () {
+	var WebGL = Laya.WebGL;
 	var Image = Laya.Image;
-	var Stat    = Laya.Stat;
+	var Stat = Laya.Stat;
 
 	// 不支持WebGL时自动切换至Canvas
 	Laya.init(375, 667, WebGL);
