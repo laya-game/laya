@@ -46,7 +46,7 @@ var SysMenu = (function() {
                         height: Laya.stage.height
                     },
                     txt: {
-                        text: '点击我切换适配模式',
+                        text: self.state.showBoy1 ? '点击我切换适配模式' : "VVV",
                         bold: true,
                         fontSize: 30,
                         left: 0,
